@@ -49,6 +49,7 @@ body {
   display: block;
   padding: 56px 23px;
   font-size: 18px;
+  font-weight: 900;
   transition: all 0.3s ease;
 }
 .menu-list__link:hover {
@@ -57,4 +58,29 @@ body {
 }
 header .container {
   align-items: center;
+}
+.logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--green);
+  font-size: 28px;
+  display: block;
+  padding: 12px 21px;
+  border: 2px solid #b7b7b7;
+  position: relative;
+}
+.logo:after {
+  content: "travel";
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--green);
+  padding: 0 15px;
+  background: var(--white);
+  bottom: -10px;
+  left: 40px;
+}
+.mob-menu {
+  display: none;
 }
