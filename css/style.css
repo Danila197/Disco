@@ -299,3 +299,112 @@ header .container {
 .more:hover {
   box-shadow: 0 0 5px rgba(89, 196, 85, 1);
 }
+
+.contacts {
+  padding: 100px 0 90px;
+  background: #efeeee;
+}
+.contacts__title {
+  margin: 0;
+  color: var(--lightgray);
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.contacts-container {
+  margin-top: 60px;
+}
+.contacts-info,
+.contacts-form {
+  width: 50%;
+  border: 1px solid #c9c9c9;
+}
+.contacts-info {
+  padding: 35px 30px 60px;
+}
+.logo {
+}
+.footer-logo {
+  display: inline-block;
+}
+.footer-logo::after {
+  background-color: #efeeee;
+}
+.contacts-info__descr {
+  margin: 40px 0 30px;
+  color: var(--lightgray);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.contacts-item {
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+}
+.contacts__list {
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.fas {
+  color: #ed7e01;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.contacts__address {
+}
+.fa-phone-square-alt {
+}
+.contacts__phone {
+}
+.fa-envelope {
+}
+.contacts__email {
+}
+.fa-globe {
+}
+.contacts__site {
+}
+.socials {
+  margin-top: 35px;
+  display: flex;
+}
+.social__link {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #c9c9c9;
+  color: var(--white);
+  margin-right: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  transition: all 0.3s ease;
+}
+.social__link:hover {
+  transform: scale(1.5);
+}
+.social__fb {
+}
+.fab {
+}
+.fa-facebook-f {
+}
+.social__gp {
+}
+.fa-google-plus-g {
+}
+.social__in {
+}
+.fa-linkedin-in {
+}
+.social__tw {
+}
+.fa-twitter {
+}
+.contacts-form {
+}
