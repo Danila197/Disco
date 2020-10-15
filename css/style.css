@@ -24,6 +24,7 @@ body {
 .site-wrapper {
   max-width: var(--wrapWidth);
   margin: 0 auto;
+  overflow: hidden;
 }
 .container {
   max-width: var(--contWidth);

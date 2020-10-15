@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
 
     <link rel="stylesheet" href="./css/jquery.fancybox.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css">
@@ -26,8 +27,8 @@
     <div class="site-wrapper">
       <header class="header">
         <div class="container">
-          <a href="#!" class="logo">Discover</a>
-          <nav class="menu">
+          <a href="#!" class="logo" data-aos="slide-right" >Discover</a>
+          <nav class="menu" data-aos="slide-left">
             <button class="mob-menu">Menu</button>
             <ul class="menu-list">
               <li class="menu-list__item">
@@ -51,16 +52,16 @@
       </header>
       <section class="home">
         <div class="container home-container">
-          <h1 class="home__title">DISCOVER</h1>
-          <p class="home__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          <h1 class="home__title" data-aos="fade-up" data-aos-delay="50" >DISCOVER</h1>
+          <p class="home__text" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#!" class="home__link">booking tour</a>
+          <a href="#!" class="home__link" data-aos="fade-up" data-aos-delay="150">booking tour</a>
         </div>
       </section>
       <section class="favor">
         <h2 class="section-title">favorable</h2>
         <div class="container fav-container">
-          <article class="fav-item">
+          <article class="fav-item"  data-aos="flip-left">
             <img src="https://picsum.photos/id/10/600/600" alt="" class="fav__img">
             <div class="fav-text">
               <h6 class="fav-text__title">Sed ut perspiciatis unde omnis iste natus
@@ -68,7 +69,7 @@
                 <p class="fav-text__descr">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non Sed ut perspiciatis unde omnis iste natus error sit.</p>
             </div>
           </article>
-          <article class="fav-item">
+          <article class="fav-item" data-aos="flip-left">
             <img src="https://picsum.photos/id/1006/600/600" alt="" class="fav__img">
             <div class="fav-text">
               <h6 class="fav-text__title">Sed ut perspiciatis unde omnis iste natus
@@ -76,7 +77,7 @@
                 <p class="fav-text__descr">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non Sed ut perspiciatis unde omnis iste natus error sit.</p>
             </div>
           </article>
-          <article class="fav-item">
+          <article class="fav-item" data-aos="flip-left">
             <img src="https://picsum.photos/id/1015/600/600" alt="" class="fav__img">
             <div class="fav-text">
               <h6 class="fav-text__title">Sed ut perspiciatis unde omnis iste natus
@@ -84,7 +85,7 @@
                 <p class="fav-text__descr">Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non Sed ut perspiciatis unde omnis iste natus error sit.</p>
             </div>
           </article>
-          <article class="fav-item">
+          <article class="fav-item" data-aos="flip-left">
             <img src="https://picsum.photos/id/1018/600/600" alt="" class="fav__img">
             <div class="fav-text">
               <h6 class="fav-text__title">Sed ut perspiciatis unde omnis iste natus
@@ -245,6 +246,7 @@
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="./js/jquery.fancybox.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/aos.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -18,4 +18,5 @@ $(function () {
       }
     }]
   })
+  AOS.init();
 })
